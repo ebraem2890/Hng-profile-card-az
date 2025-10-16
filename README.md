@@ -7,3 +7,4 @@ Features: - Displays name, bio, avatar, hobbies, dislikes, and social links.
 - Accessible and semantic HTML with required `data-testid` attributes.
 - How to Run Locally:
  Clone this repo: git clone https://github.com/ebraem2890/Hng-profile-card-az.git
+ - Then, open 'index.html' on browser
