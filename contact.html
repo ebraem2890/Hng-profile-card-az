@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="Contact.css" />
 </head>
 <body>
+     <h2>Contact Us</h2>
     <main>
-        <h2>Contact Us</h2>
-      <form>
+      <form id="contactForm" novalidate>
         <label for="name">Full Name</label>
         <input type="text" data-testid="test-contact-name" placeholder="Your Name" required aria-describedby="error-name" >
         <p data-testid="test-contact-error-name" class="error"></p>
         <label for="email">Email address</label>
-        <input type="email" data-testid="test-contact-email" placeholder="Your Email" required aria-describedby="error-error" >
+        <input type="email" data-testid="test-contact-email" placeholder="Your Email" required aria-describedby="error-email" >
         <p data-testid="test-contact-error-email" class="error"></p>
         <label for="subject">Subject</label>
-        <input type="subject" data-testid="test-contact-subject" required aria-describedby="error-subject" >
+        <input type="text" data-testid="test-contact-subject" required aria-describedby="error-subject" >
         <p data-testid="test-contact-error-subject" class="error"></p>
-        <label for="message" data-testid="test-contact-message">Message</label>
-        <textarea id="message" placeholder="Write a message" required minlength="10" aria-describedby="error-message"></textarea>
-        <p data-testid="test-contact-error-message" class="error"></p>
-        <button type="submit" data-testid="test-contact-submit">Submit</button>
+        <label for="message">Message</label>
+        <textarea id="message" data-testid="test-contact-message" placeholder="Write a message" required minlength="10" aria-describedby="error-message"></textarea>
+        <p id="error-message" data-testid="test-contact-error-message" class="error"></p>
+        <button type="submit" id="submit" data-testid="test-contact-submit">Submit</button>
         <p id="success" data-testid="test-contact-success" class="success"></p>
-      </form>  
+      </form> 
     </main>
+    <script src="contact.js"></script> 
 </body>
 </html>
