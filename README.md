@@ -13,6 +13,7 @@ Description: A simple, accessible, and responsive profile card built using HTML,
 - Displays **error messages** for invalid inputs and a **success message** upon successful submission.
  ## About Me Page 
  - shows bio, goals, Areas of  low confidence, note to future self and extra thoughts.
-- How to Run Locally:
+## How to Run Locally:
+ Live URL
  Clone this repo: git clone https://github.com/ebraem2890/Hng-profile-card-az.git
  - Then, open 'index.html' on browser
