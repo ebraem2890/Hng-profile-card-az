@@ -51,6 +51,6 @@ button {
 }
 @media(max-width: 750px) {
     form {
-        padding: 8px;
+        padding: 32px;
     }
 }
