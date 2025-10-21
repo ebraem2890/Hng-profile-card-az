@@ -11,9 +11,9 @@ Description: A simple, accessible, and responsive profile card built using HTML,
 - **form validation** for name, email address,  subject and Message
 - **Message field** requires at least 10 characters
 - Displays **error messages** for invalid inputs and a **success message** upon successful submission.
- ## About Me Page 
+ ### About Me Page 
  - shows bio, goals, Areas of  low confidence, note to future self and extra thoughts.
 ## How to Run Locally:
- Live URL
+ Live URL: https://hng-profile-card-az.netlify.app/
  Clone this repo: git clone https://github.com/ebraem2890/Hng-profile-card-az.git
  - Then, open 'index.html' on browser
